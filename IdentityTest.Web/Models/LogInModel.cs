@@ -10,7 +10,7 @@ namespace IdentityTest.Web.Models
     public class LogInModel
     {
         [Required]
-    [DataType(DataType.EmailAddress)]
+        [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
 
         [Required]
