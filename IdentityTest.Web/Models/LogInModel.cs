@@ -11,6 +11,7 @@ namespace IdentityTest.Web.Models
     {
         //comment here 
         //another comment
+        //conflict here
         //conflict here too
         [Required]
         [DataType(DataType.EmailAddress)]
