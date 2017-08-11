@@ -9,7 +9,8 @@ namespace IdentityTest.Web.Models
 {
     public class LogInModel
     {
-        //comment here
+        //comment here 
+        //another comment
         [Required]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
