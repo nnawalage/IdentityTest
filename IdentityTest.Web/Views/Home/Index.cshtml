@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+}
+
+<h2>Home</h2>
+
+<p>
+    <a href="@Url.Action("logout", "authentication")">Log Out</a>
+</p>
+
+<p>
+    Hello @User.Identity.Name
+
+    
+</p>
